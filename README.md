@@ -7,4 +7,5 @@ download blue-budgie.avif
 # updates in readme
 - fixtypos
 - DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
-> ok
+> i will add a new thing later in the code.
+## test

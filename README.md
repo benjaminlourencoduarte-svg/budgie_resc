@@ -5,8 +5,9 @@ D D D D D D D
 # things to do before executing
 download blue-budgie.avif
 # updates in readme
-- fixtypos
+- fixed typos
 - DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
 ## updates
-> added a shutdown thing
-> new url start
+- added a shutdown thing
+- new url start
+- fixed the readme

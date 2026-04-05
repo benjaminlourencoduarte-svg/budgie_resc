@@ -11,3 +11,5 @@ download blue-budgie.avif
 - added a shutdown thing
 - new url start
 - fixed the readme
+# files added
+- added safe version

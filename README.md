@@ -14,3 +14,5 @@ download blue-budgie.avif
 # files added
 - added safe version
 - added budgie.B.vbs
+- added budgie.C.vbs
+- added budgie.D.vbs
